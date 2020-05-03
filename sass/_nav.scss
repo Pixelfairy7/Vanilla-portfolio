@@ -1,0 +1,50 @@
+header{
+    min-height: 20vh;
+    background-color: #fff;
+    color: $gray;
+}
+.sticky{
+    position: sticky;
+    top:0;
+    z-index: 999;
+    width: 100%;
+}
+.logo{
+    font-family: $heading;
+    text-align: center;
+    font-size: 1.9rem;
+    padding-top: 20px;
+}
+    nav{
+      
+        .nav-list{
+            font-family: $body-copy;
+            font-size: 1.2rem;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            position: relative;
+            right: 20px;
+            top: 20px;
+            padding-bottom: 2rem;
+           
+            li{
+                list-style-type: none;
+            }
+            li a{
+                padding-left: 3rem;
+                text-decoration: none;
+                color: $gray;
+            }
+        }
+
+        li a:hover, li a:focus{
+            color: #5f27cd;
+            font-weight: 700;
+        }
+
+    }
+   
+
+
+

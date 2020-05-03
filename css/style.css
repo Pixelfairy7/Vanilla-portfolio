@@ -1,0 +1,122 @@
+/* Imports */
+/*fonts*/
+/*colors*/
+header {
+  min-height: 20vh;
+  background-color: #fff;
+  color: #2d3436; }
+
+.sticky {
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  width: 100%; }
+
+.logo {
+  font-family: "Nunito", sans-serif;
+  text-align: center;
+  font-size: 1.9rem;
+  padding-top: 20px; }
+
+nav .nav-list {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  position: relative;
+  right: 20px;
+  top: 20px;
+  padding-bottom: 2rem; }
+  nav .nav-list li {
+    list-style-type: none; }
+  nav .nav-list li a {
+    padding-left: 3rem;
+    text-decoration: none;
+    color: #2d3436; }
+
+nav li a:hover, nav li a:focus {
+  color: #5f27cd;
+  font-weight: 700; }
+
+.hero h1 {
+  font-size: 1.9rem;
+  padding-top: 3em; }
+
+.hero h2 {
+  font-size: 1.3rem;
+  padding: 20px; }
+
+.cta {
+  background-color: #fd79a8;
+  border: 2px solid #fff;
+  padding: 15px 20px;
+  display: inline-block;
+  border-radius: 100px;
+  margin: 20px 30px;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.15), 0 15px 12px rgba(0, 0, 0, 0.08); }
+
+.cta:hover, .cta:focus {
+  color: #5f27cd;
+  background-color: #fff; }
+
+/* included skills/contact here since such a small section*/
+.skills-list, .social-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  list-style-type: none; }
+  .skills-list li, .social-list li {
+    padding: 20px; }
+    .skills-list li i, .social-list li i {
+      font-size: 3rem; }
+
+li i:hover {
+  color: #5f27cd; }
+
+/*contact*/
+.social-list li > a {
+  color: #fff; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+/*Styling of page sections*/
+.section:nth-of-type(odd) {
+  color: #fff;
+  background-color: #fd79a8; }
+
+.section:nth-of-type(even) {
+  color: #2d3436; }
+
+.section {
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px; }
+
+/*  general text styling  */
+.heading {
+  font-family: "Nunito", sans-serif;
+  font-size: 2rem;
+  margin-bottom: 20px; }
+
+.copy {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.3rem; }
+
+.text-box {
+  width: 80vw;
+  padding-bottom: 55px; }
+
+/*accents*/
+.accent {
+  color: #5f27cd; }

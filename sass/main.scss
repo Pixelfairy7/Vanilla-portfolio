@@ -1,0 +1,54 @@
+/* Imports */
+
+@import 'sass/variables';
+@import 'sass/nav';
+@import 'about';
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+/*Styling of page sections*/
+.section:nth-of-type(odd){
+  color: #fff;
+  background-color: $pink;
+}
+.section:nth-of-type(even){
+  color: $gray;
+}
+.section{
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+}
+
+
+/*  general text styling  */
+.heading{
+  font-family: $heading;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.copy{
+  font-family: $body-copy;
+  font-size: 1.3rem;
+}
+.text-box{
+  width: 80vw;
+  padding-bottom: 55px;
+}
+
+
+/*accents*/
+.accent{
+  color: #5f27cd;
+}
+
+
