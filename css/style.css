@@ -17,6 +17,10 @@ header {
   text-align: center;
   font-size: 1.9rem;
   padding-top: 20px; }
+  .logo a {
+    text-decoration: none; }
+  .logo a:hover, .logo a:focus {
+    color: #fd79a8; }
 
 nav .nav-list {
   font-family: "Montserrat", sans-serif;
