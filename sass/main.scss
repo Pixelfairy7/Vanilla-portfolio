@@ -13,11 +13,12 @@
 
 /*Styling of page sections*/
 .section:nth-of-type(odd){
-  color: #fff;
+  color: #363636;
   background-color: $pink;
 }
 .section:nth-of-type(even){
   color: $gray;
+  background-color: $white;
 }
 .section{
   text-align: center;
