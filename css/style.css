@@ -117,7 +117,8 @@ li i:hover {
 .heading {
   font-family: "Nunito", sans-serif;
   font-size: 2rem;
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+  padding-top: 30px; }
 
 .copy {
   font-family: "Montserrat", sans-serif;
@@ -129,5 +130,10 @@ li i:hover {
 
 .hero-accent {
   color: #411B8D; }
+
+.page-container {
+  scroll-behavior: smooth;
+  height: 100vh;
+  overflow-y: scroll; }
 
 /*accents*/
