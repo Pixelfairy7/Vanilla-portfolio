@@ -76,7 +76,8 @@ nav li a:hover, nav li a:focus {
   .skills-list li, .social-list li {
     padding: 20px; }
     .skills-list li i, .social-list li i {
-      font-size: 3rem; }
+      font-size: 3rem;
+      color: #fff; }
 
 li i:hover {
   color: #5f27cd; }
@@ -94,10 +95,14 @@ li i:hover {
 .section:nth-of-type(odd) {
   color: #363636;
   background-color: #fd79a8; }
+  .section:nth-of-type(odd) .accent {
+    color: #fff; }
 
 .section:nth-of-type(even) {
   color: #2d3436;
   background-color: #fff; }
+  .section:nth-of-type(even) .accent {
+    color: #411B8D; }
 
 .section {
   text-align: center;
@@ -112,7 +117,8 @@ li i:hover {
 .heading {
   font-family: "Nunito", sans-serif;
   font-size: 2rem;
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+  padding-top: 30px; }
 
 .copy {
   font-family: "Montserrat", sans-serif;
@@ -122,6 +128,12 @@ li i:hover {
   width: 80vw;
   padding-bottom: 55px; }
 
+.hero-accent {
+  color: #411B8D; }
+
+.page-container {
+  scroll-behavior: smooth;
+  height: 100vh;
+  overflow-y: scroll; }
+
 /*accents*/
-.accent {
-  color: #5f27cd; }

@@ -15,10 +15,16 @@
 .section:nth-of-type(odd){
   color: #363636;
   background-color: $pink;
+  .accent{
+    color: $white;
+  }
 }
 .section:nth-of-type(even){
   color: $gray;
   background-color: $white;
+  .accent{
+    color: #411B8D;
+  }
 }
 .section{
   text-align: center;
@@ -36,6 +42,7 @@
   font-family: $heading;
   font-size: 2rem;
   margin-bottom: 20px;
+  padding-top: 30px;
 }
 
 .copy{
@@ -47,10 +54,18 @@
   padding-bottom: 55px;
 }
 
-
-/*accents*/
-.accent{
-  color: #5f27cd;
+.hero-accent{
+  color: #411B8D;
 }
+
+.page-container{
+  scroll-behavior: smooth;
+  height: 100vh;
+  overflow-y: scroll;
+}
+/*accents*/
+// .section:nth-of-type(even) >.accent{
+//   color: #5f27cd;
+// }
 
 
