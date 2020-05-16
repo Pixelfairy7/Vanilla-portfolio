@@ -11,7 +11,7 @@
   }
 .cta{
     background-color: $pink;
-    border: 2px solid #fff;
+    border: 2px solid $white;
     padding: 15px 20px;
     display: inline-block;
     border-radius: 100px;
@@ -23,7 +23,7 @@
   }
   
    .cta:hover, .cta:focus{
-    color: #5f27cd;
+    color: $bluebelle;
     background-color: #fff;
   }
 

@@ -14,16 +14,16 @@
 /*Styling of page sections*/
 .section:nth-of-type(odd){
   color: #363636;
-  background-color: $pink;
+  background-color: $lavender;
   .accent{
-    color: $white;
+    color: $bluebelle;
   }
 }
 .section:nth-of-type(even){
   color: $gray;
   background-color: $white;
   .accent{
-    color: #411B8D;
+    color: $pink;
   }
 }
 .section{
@@ -55,7 +55,7 @@
 }
 
 .hero-accent{
-  color: #411B8D;
+  color: $teal;
 }
 
 .page-container{
