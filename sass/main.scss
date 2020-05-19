@@ -13,17 +13,17 @@
 
 /*Styling of page sections*/
 .section:nth-of-type(odd){
-  color: #363636;
-  background-color: $pink;
+  color: $gray;
+  background-color: $lavender;
   .accent{
     color: $white;
   }
 }
 .section:nth-of-type(even){
-  color: $gray;
-  background-color: $white;
+  color: $white;
+  background-color: $darkblue;
   .accent{
-    color: #411B8D;
+    color: $pink;
   }
 }
 .section{
@@ -48,6 +48,7 @@
 .copy{
   font-family: $body-copy;
   font-size: 1.3rem;
+  margin-bottom: 1.3rem;
 }
 .text-box{
   width: 80vw;
@@ -55,7 +56,7 @@
 }
 
 .hero-accent{
-  color: #411B8D;
+  color: $teal;
 }
 
 .page-container{
