@@ -50,13 +50,13 @@ header{
             font-weight: 700;
         }
     }
-        .nav::after {
+        .sticky::after {
             content: "";
             position: absolute;
             left: 0;
             right: 0;
-            top: 20vh;
-            height: 13px;
+            bottom: 0;
+            height: 10px;
             background-image: linear-gradient(
               to right,
               #d16ba5,

@@ -4,6 +4,7 @@
 @import 'sass/nav';
 @import 'about';
 @import 'footer';
+@import 'sass/image';
 
 *{
     margin: 0;
@@ -12,16 +13,16 @@
 }
 
 /*Styling of page sections*/
+.section{
+  color: $white;
+  background-color: $darkblue;
+}
 .section:nth-of-type(odd){
-  color: $gray;
-  background-color: $lavender;
   .accent{
     color: $white;
   }
 }
 .section:nth-of-type(even){
-  color: $white;
-  background-color: $darkblue;
   .accent{
     color: $pink;
   }
@@ -37,6 +38,7 @@
 }
 
 
+
 /*  general text styling  */
 .heading{
   font-family: $heading;
@@ -44,6 +46,28 @@
   margin-bottom: 20px;
   padding-top: 30px;
 }
+ h2::after{
+   content: '';
+   display: block;
+   height: 4px;
+   width: 100%;
+   margin-top: 5%;
+   background-image: linear-gradient(
+              to right,
+              #d16ba5,
+              #c777b9,
+              #ba83ca,
+              #aa8fd8,
+              #9a9ae1,
+              #8aa7ec,
+              #79b3f4,
+              #69bff8,
+              #52cffe,
+              #41dfff,
+              #46eefa,
+              #5ffbf1
+            );
+ }
 
 .copy{
   font-family: $body-copy;
@@ -64,9 +88,7 @@
   height: 100vh;
   overflow-y: scroll;
 }
-/*accents*/
-// .section:nth-of-type(even) >.accent{
-//   color: #5f27cd;
-// }
+
+
 
 
