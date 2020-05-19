@@ -3,7 +3,7 @@
 /*colors*/
 header {
   min-height: 20vh;
-  background-color: #fff;
+  background-color: #f1f2f6;
   color: #2d3436; }
 
 .sticky {
@@ -42,6 +42,15 @@ nav .nav-list {
 nav li a:hover, nav li a:focus {
   color: #5f27cd;
   font-weight: 700; }
+
+.nav::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 20vh;
+  height: 13px;
+  background-image: linear-gradient(to right, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1); }
 
 .hero h1 {
   font-size: 1.9rem;
@@ -93,14 +102,14 @@ li i:hover {
 
 /*Styling of page sections*/
 .section:nth-of-type(odd) {
-  color: #363636;
+  color: #2d3436;
   background-color: #D6A2E8; }
   .section:nth-of-type(odd) .accent {
-    color: #3B3B98; }
+    color: #f1f2f6; }
 
 .section:nth-of-type(even) {
-  color: #2d3436;
-  background-color: #f1f2f6; }
+  color: #f1f2f6;
+  background-color: #0f1e2f; }
   .section:nth-of-type(even) .accent {
     color: #fd79a8; }
 
@@ -122,7 +131,8 @@ li i:hover {
 
 .copy {
   font-family: "Montserrat", sans-serif;
-  font-size: 1.3rem; }
+  font-size: 1.3rem;
+  margin-bottom: 1.3rem; }
 
 .text-box {
   width: 80vw;
